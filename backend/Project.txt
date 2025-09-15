@@ -1,0 +1,44 @@
+nuclear-simulator/
+├── backend/
+│   ├── models/
+│   │   ├── Timeline.js
+│   │   ├── Facility.js
+│   │   ├── Material.js
+│   │   └── HealthImpact.js
+│   ├── routes/
+│   │   ├── timeline.js
+│   │   ├── facilities.js
+│   │   ├── materials.js
+│   │   └── simulator.js
+│   ├── controllers/
+│   │   ├── timelineController.js
+│   │   ├── facilityController.js
+│   │   └── simulatorController.js
+│   ├── middleware/
+│   │   └── auth.js
+│   ├── utils/
+│   │   ├── calculations.js
+│   │   └── physics.js
+│   ├── server.js
+│   ├── package.json
+│   └── .env
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Timeline/
+│   │   │   ├── FacilityMap/
+│   │   │   ├── Dashboard/
+│   │   │   ├── Materials/
+│   │   │   ├── HealthImpact/
+│   │   │   └── Simulator/
+│   │   ├── hooks/
+│   │   ├── services/
+│   │   ├── utils/
+│   │   ├── App.js
+│   │   └── index.js
+│   ├── public/
+│   └── package.json
+└── shared/
+    ├── constants/
+    ├── types/
+    └── utils/
